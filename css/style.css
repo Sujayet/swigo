@@ -1136,19 +1136,43 @@ button a {
     padding-left: 0;
     font-size: 1.5rem;
   }
-
+.nav-small {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 30px !important;
+    color: #000000;
+    padding: .3rem;
+      
+  }
   .logo {}
 
-  .menu-items {
-    position: absolute;
-    top: 60;
-    left: 30;
-    display: flex;
-    flex-direction: column;
-    font-family: poppins;
-    background-color: #4CAF50;
-
+    .menu-items {
+    display: block;
+    width: 100%;
+    min-height: 160px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2px 20px;
+    box-sizing: border-box;
+    z-index: 999;
+    margin-top: 4rem;
+    -webkit-transition: all 1s ease-in-out;
   }
+
+  nav ul li a{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 30px !important;
+    color: #fff; 
+}
 
 }
 
