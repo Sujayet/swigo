@@ -1335,8 +1335,10 @@ button a {
   }
 
   .left-banner .div span {
-    font-size: 25px;
     right: 3px;
+    right: 2px;
+    top: -31px;
+    font-size: .8rem;
   }
 
   .sec-two {
@@ -1345,7 +1347,9 @@ button a {
     justify-content: space-between;
 
   }
-
+.footer{
+  padding: 0px;
+}
   .sec-two .left-banner img {
     width: 70%;
     left: 30%;
@@ -1360,6 +1364,7 @@ button a {
     width: 80%;
     margin: 0 auto;
     padding-top: 5%;
+    display: none;
   }
 
   .right-banner .top .left-div .left-two h1 {
