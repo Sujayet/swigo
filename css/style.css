@@ -1315,7 +1315,9 @@ button a {
   .section-two .left-banner {
     width: 100%;
   }
-
+  .right-banner .top .right-div{
+    display:none;
+  }
   .burger {
     width: 70%;
     padding-top: 5rem;
